@@ -1,0 +1,107 @@
+body,h2{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login{
+    width: 20%;
+    height: 10%;
+    background-color: rgba(248, 234, 111, 0.705);
+    /*top: 0.3em;*/
+    z-index: 2;
+    /*align-items: center;*/
+    /*height: 100vh;*/
+    /*margin-left: 70%;
+    margin-top: 0%;*/
+    margin: -25% 20% 90% 65%;
+    padding: 5%;
+}
+.login button{
+    color: red;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    align-items: center;
+    padding: 0.2em;
+}
+.input{
+    margin: 8px 0;
+    color: red;
+   font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200; 
+    padding: 0.5em;
+}
+
+.landing{
+    background-image: url('../media/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 270vh;
+}
+
+header a{
+    text-decoration: none;
+    color: red;
+    font-size: 120%;
+
+}
+.logo{
+    margin-left: 18%;
+    margin-top: 5%;
+}
+.maintext{
+    margin-left: 3%;
+    justify-content: center;
+    padding: 2em;
+}
+.maintext div{
+    padding: 0.5em;
+}
+.tagline2{
+    color:yellow;
+    font-size: 200%;
+    font-weight: bold;
+}
+.tagline1{
+    color: rgb(240, 9, 9);
+    font-size: 300%;
+    font-weight: bold;
+}
+nav{
+    flex: 2;
+    display: flex;
+    color: rgb(10, 211, 43);
+    padding-left: 50%;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+nav a{
+    flex: 1;
+}
+#head,#conhead{
+    font-size: 2em;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    padding-top: 0%;
+}
+.customerservice{
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 70vh;
+    background: linear-gradient(to right,rgb(184, 26, 26),rgb(255, 145, 0)) ;
+    color: white;
+    font-size: 1.5em;
+}
+.contactus{
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    display: inline;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.tagline4, .tagline5{
+display: inline;
+}
